@@ -34,16 +34,15 @@ input[type="number"] {
   object-fit: cover; /* Ensures the image fills the slide while maintaining aspect ratio */
   border-radius: 10px; /* Optional: Adds rounded corners if desired */
 }
-/* .myBtn {
-  background-color: #2ec1ac;
-}
-.myBtn:hover {
-  background-color: #279e8c;
-} */
-/* Make your button styles more specific */
+
 .myBtn.btn {
   background-color: #2ec1ac !important;
 }
 .myBtn.btn:hover {
   background-color: #279e8c !important;
+}
+.check-availability {
+  position: relative;
+  margin: -50px;
+  z-index: 2;
 }
