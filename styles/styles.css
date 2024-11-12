@@ -46,3 +46,31 @@ input[type="number"] {
   margin: -50px;
   z-index: 2;
 }
+
+.swiper-review {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper1-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper1-slide img {
+  margin: 0 20px;
+  display: block;
+  width: 50px;
+  height: inherit;
+  object-fit: cover;
+}
+footer {
+  border-top: 1px solid crimson;
+}
+.footer-container {
+  width: 80%;
+  margin: 0 auto;
+}
